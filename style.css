@@ -1,0 +1,208 @@
+body {
+	background-color: #0b2447;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.photo{
+	width:350px;
+	height:350px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 120px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.name{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+}
+
+header {
+	color:white;
+	background-color: #576cbc;
+	padding: 20px;
+	text-align: center;
+}
+
+section {
+	padding: 20px;
+}
+
+#about {
+	background-color: #0b2447;
+}
+
+#portfolio {
+	color:white;
+	background-color: #0b2447;
+}
+
+.workcard{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+a{
+	color:white;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contact {
+	background-color: #8ad4ee;
+}
+
+footer {
+	color:black;
+	font-weight: bold;
+	background-color: #576cbc;
+	padding: 10px;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+button {
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 5px;
+	background-color: aqua;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #e0e0e0;
+	color: black;
+	font-weight: bold;
+}
+
+h3{
+	color:white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.content{
+    
+    display:flex;
+	justify-content: center;
+	align-items: center;
+    width:120px;
+    height:30px;
+    border-radius:4px;
+    background-color: #19376D;
+    color:white;
+}
+
+#contact{
+	margin-bottom: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    width:30%;
+}
+
+.about{
+	text-align: center;
+	font-size: 20px;
+	color:white;
+}
+
+
+h2{
+	color:white;
+    text-align: center;
+}
+
+
+.name{
+	color:white;
+	display: flex;
+	margin-left: 75px;
+	font-size: 75px;
+}
+
+.photo{
+	background-image: url("image1.jpg");
+	object-fit: cover;
+
+
+} 
+
+.card {
+	background-color: black;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 5px;
+	margin: 10px;
+  }
+  
+  img {
+	width: 100%;
+	border-radius: 25px;
+  }
+
+  p{
+	padding:5px;
+  }
+
+  .project_name{
+	margin:10px;
+	text-decoration: none;
+  }
+
+.content:hover{
+	cursor: pointer;
+	opacity: 1.2;
+	height:35px;
+	width:130px;
+	overflow: hidden;
+	transition: height 0.4s ease, width 0.4s ease;
+	font-weight: bold;
+
+}
+
+.project_name:hover{
+	color:rgb(11, 131, 237);
+}
+
+.footer-heading{
+	text-align: justify;
+}
+
+.social-icons i{
+	font-size: 20px;
+	display: inline-block;
+	line-height: 40px;
+	height: 40px;
+	width: 40px;
+
+}
+
